@@ -3,4 +3,4 @@ This repository will have a few python notebooks which can find occurrences and 
 
 Motif_Co-occurrence_Calculation: To find co-occurrences of motifs (either inputted by hand or chosen from the MEME tool results which will be displayed) in a fasta file. This notebook will then print out extensive statistical results about the co-occurrences (histograms with the frequencies of the length between the two motifs) and display the sequence logos of the most common sequences before and after the motif
 
-HT-SELEX_CNN_Model:
+HT-SELEX_CNN_Model: Deep Learning (Convolutional Neural Network) Model Architecture to predict the count and probabilities of a kmer sequence occurring in a .counts file (good for Affinity-Seq and other sequencing techniques)
