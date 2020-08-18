@@ -10,3 +10,5 @@ Motif_ZNF436_End: Goes through a fasta sequence file and sees the genomic sequen
 AffSeq_Motif_Finder: This notebook is to find occurrences of a motif (either inputted by hand or via a MEME Tool .txt result file) in an .counts data file. Many sequencing techniques like HT-SELEX and AffSeq may use this type of file (.counts) to convey their reads.
 
 ALL_DATA_Motif_Co-occurance_Calculation: Programmatically finds the co-occurrences of any two motif/sequences (either inputted through a MEME txt file result or typed in) over all of the data files in a directory. Outputs plots containing the sequences of the motifs used to get the co-occurrences and the stastical analysis. Very useful when running over lots of genomic sequence data, and it is extremely efficent (~7 seconds for each dataset). 
+
+Generic_Motif_Fasta_Search: Finds an occurrence of a sequence in a fasta file (very common format for genomic sequences). Very generalizable and can be adapted for many other more complex tasks. Additionally, outputs some basic statistics of the search. Some of the more advanced adaptations of this notebook are seen in this repository. 
